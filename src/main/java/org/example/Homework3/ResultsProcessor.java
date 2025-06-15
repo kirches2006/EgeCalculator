@@ -26,6 +26,12 @@ public class ResultsProcessor {
         this.answearsReader = answearsReader;
     }
 
+    public void setGroupPoints(int group1, int group2, int group3) {
+        this.group1Points = group1;
+        this.group2Points = group2;
+        this.group3Points = group3;
+    }
+
 
     public int CalculateScore(String answearstFilePath, String studentsFilePath){
 
